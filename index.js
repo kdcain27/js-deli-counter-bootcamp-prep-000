@@ -21,7 +21,7 @@ function currentLine(line) {
       while (count < line.length) {
         lineNames.push((count+1) + '. ' + line[0] + ' ');
         count++;
-        line[i++];
+        line[+i+];
       }
   }
   return ('The line is currently: ' + lineNames);
