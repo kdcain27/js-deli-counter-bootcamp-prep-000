@@ -19,7 +19,7 @@ function currentLine(line) {
     return ('The line is currently empty.')
   } else {
       while (count < line.length) {
-        lineNames.push((count+1) + '. ' + line[0] + '');
+        lineNames.push((count+1) + '. ' + line[] + ' ');
         count++;
         i++;
       }
