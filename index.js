@@ -12,10 +12,17 @@ function nowServing(array) {
 }
 
 function currentLine(line) {
-
+  var lineNames = [];
+  var count = 0;
+  var i;
   if (line[0] == null) {
     return ('The line is currently empty.')
   } else {
-
+      while (count < line.length) {
+        lineNames.push((count+1) + '. ' + line[0] + ', ');
+        count++;
+        i++;
+      }
   }
+  return lineNames;
 }
