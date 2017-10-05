@@ -24,5 +24,5 @@ function currentLine(line) {
         i++;
       }
   }
-  return lineNames;
+  return ('The line is currently: ' + lineNames;
 }
